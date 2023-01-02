@@ -13,9 +13,6 @@ p.about {
   text-align: center;
 }
 
-body {
-}
-
 h1 {
   font-size: 96px;
 }
@@ -94,5 +91,9 @@ a {
 
   .home-container {
     text-align: center;
+  }
+
+  .project-button {
+    display: block;
   }
 }
