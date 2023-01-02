@@ -70,3 +70,29 @@ a {
   padding: 15px 15px;
   text-decoration: none;
 }
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  .home-img {
+    display: none;
+  }
+
+  .home-container {
+    text-align: center;
+  }
+}
