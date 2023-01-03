@@ -22,7 +22,7 @@ h1 {
 }
 
 h2 {
-  font-size: 48px;
+  font-size: 64px;
 }
 
 h3 {
@@ -32,7 +32,9 @@ h3 {
 
 p {
   font-family: var(--defoult-font-family);
+  font-size: 16px;
   font-weight: normal;
+  line-height: 30px;
 }
 
 p.about {
@@ -95,11 +97,16 @@ a {
   text-transform: capitalize;
 }
 
+.project-description {
+  padding: 120px 60px;
+}
+
 .project-button {
-  background: var(--main-color);
+  background: white;
+  border: 1px solid var(--main-color);
   border-radius: 4px;
   box-shadow: var(--box-shadow);
-  color: white;
+  color: var(--main-color);
   padding: 15px 15px;
   text-decoration: none;
 }
@@ -121,12 +128,19 @@ a {
     font-size: 18px;
   }
 
+  .hero {
+    padding: 80px 10px;
+  }
   .home-img {
     display: none;
   }
 
   .home-container {
     text-align: center;
+  }
+
+  .project-description {
+    padding: 0;
   }
 
   .project-button {
