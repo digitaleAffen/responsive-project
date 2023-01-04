@@ -26,6 +26,7 @@ h2 {
 }
 
 h3 {
+  font-family: var(--defoult-font-family);
   font-size: 24px;
   opacity: 0.8;
 }
@@ -45,19 +46,19 @@ a {
   text-align: center;
 }
 
-.hero {
+.hero-home {
   background: var(--secondary-color);
   padding: 160px 10px;
 }
 
-.hero p {
+.hero-home p {
   color: #272142;
   font-size: 36px;
   font-weight: bold;
   margin: 0;
 }
 
-.hero h2 {
+.hero-home h2 {
   font-family: "Poppins", sans-serif;
   font-size: 24px;
 }
@@ -103,21 +104,21 @@ a {
   text-decoration: none;
 }
 
-.about-hero {
+.hero-pages {
   padding: 160px 10px;
 }
 
-.about-hero h1 {
+.hero-pages h1 {
   font-size: 64px;
   line-height: 80px;
 }
 
-.about-hero h2 {
+.hero-pages h2 {
   font-size: 18px;
   font-family: var(--defoult-font-family);
 }
 
-.about-hero p {
+.hero-pages p {
   background: var(--secondary-color);
   padding: 20px;
   border-radius: 4px;
@@ -142,14 +143,14 @@ a {
     font-size: 18px;
   }
 
-  .hero {
+  .hero-home {
     padding: 80px 10px;
   }
   .home-img {
     display: none;
   }
 
-  .home-container {
+  .container {
     text-align: center;
   }
 
@@ -161,7 +162,7 @@ a {
     display: block;
   }
 
-  .about-hero {
+  .hero-pages {
     text-align: center;
     padding: 0;
   }
