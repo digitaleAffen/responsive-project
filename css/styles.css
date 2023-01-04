@@ -46,6 +46,14 @@ a {
   text-align: center;
 }
 
+.menu a:hover {
+  color: var(--main-color);
+}
+
+.active {
+  color: var(--main-color) !important;
+}
+
 .hero-home {
   background: var(--secondary-color);
   padding: 160px 10px;
