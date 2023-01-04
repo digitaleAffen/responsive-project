@@ -4,6 +4,7 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --heading-font-family: "Playfair Display", serif;
   --defoult-font-family: "Poppins", sans-serif;
+  --button-transition: all 130ms ease-in-out;
 }
 h1,
 h2,
@@ -31,6 +32,10 @@ h3 {
   opacity: 0.8;
 }
 
+h4 {
+  font-size: 48px;
+}
+
 p {
   font-family: var(--defoult-font-family);
   font-size: 16px;
@@ -44,6 +49,45 @@ img {
 
 a {
   text-align: center;
+}
+
+footer {
+  margin: 60px 0;
+}
+
+footer .contact-box {
+  background: var(--secondary-color);
+  padding: 30px 60px;
+  border-radius: 8px;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+
+footer .email-footer {
+  font-family: var(--defoult-font-family);
+  text-decoration: none;
+  font-size: 24px;
+  color: black;
+}
+
+footer .email-footer:hover {
+  color: var(--main-color);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  background-color: var(--secondary-color);
+  padding: 10px 16px;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: var(--button-transition);
+}
+
+footer .social-links a:hover {
+  color: white;
+  background: var(--main-color);
 }
 
 .menu a:hover {
@@ -75,15 +119,21 @@ a {
   display: flex;
 }
 
-.about-button {
+.certificates-button {
   margin: 20px;
   border: 1px solid var(--main-color);
+  box-shadow: var(--box-shadow);
   border-radius: 4px;
   color: var(--main-color);
   font-size: 18px;
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
+  transition: var(--button-transition);
+}
+
+.certificates-button:hover {
+  background: var(--secondary-color);
 }
 
 .contact-button {
@@ -96,6 +146,12 @@ a {
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
+  transition: var(--button-transition);
+}
+
+.contact-button:hover {
+  border: 1px solid var(--main-color);
+  color: var(--main-color);
 }
 
 .project-description {
@@ -110,6 +166,12 @@ a {
   color: var(--main-color);
   padding: 15px 15px;
   text-decoration: none;
+  transition: var(--button-transition);
+}
+
+.project-button:hover {
+  background: var(--main-color);
+  color: white;
 }
 
 .hero-pages {
@@ -144,6 +206,10 @@ a {
   }
 
   h3 {
+    font-size: 26px;
+  }
+
+  h4 {
     font-size: 24px;
   }
 
