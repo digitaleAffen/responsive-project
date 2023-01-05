@@ -4,7 +4,7 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --heading-font-family: "Playfair Display", serif;
   --defoult-font-family: "Poppins", sans-serif;
-  --button-transition: all 130ms ease-in-out;
+  --element-transition: all 150ms ease-in-out;
 }
 h1,
 h2,
@@ -33,14 +33,16 @@ h3 {
 }
 
 h4 {
+  font-family: var(--defoult-font-family);
   font-size: 48px;
+  margin: 30px;
 }
 
 p {
   font-family: var(--defoult-font-family);
   font-size: 16px;
   font-weight: normal;
-  line-height: 30px;
+  line-height: 32px;
 }
 
 img {
@@ -57,12 +59,15 @@ footer {
 
 footer .contact-box {
   background: var(--secondary-color);
-  padding: 30px 60px;
+  padding: 15px 60px;
   border-radius: 8px;
+  margin: 0 80px;
 }
 
 footer .contact-box p {
   margin: 0;
+  font-size: 18px;
+  padding: 0;
 }
 
 footer .email-footer {
@@ -82,7 +87,7 @@ footer .social-links a {
   padding: 10px 16px;
   font-size: 18px;
   border-radius: 50%;
-  transition: var(--button-transition);
+  transition: var(--element-transition);
 }
 
 footer .social-links a:hover {
@@ -92,6 +97,8 @@ footer .social-links a:hover {
 
 .menu a:hover {
   color: var(--main-color);
+  touch-action: manipulation;
+  text-decoration: underline;
 }
 
 .active {
@@ -104,8 +111,8 @@ footer .social-links a:hover {
 }
 
 .hero-home p {
-  color: #272142;
-  font-size: 36px;
+  color: black;
+  font-size: 40px;
   font-weight: bold;
   margin: 0;
 }
@@ -129,11 +136,14 @@ footer .social-links a:hover {
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
-  transition: var(--button-transition);
+  transition: var(--element-transition);
 }
 
 .certificates-button:hover {
-  background: var(--secondary-color);
+  border: 1px solid var(--main-color);
+  box-shadow: var(--box-shadow);
+  color: var(--main-color);
+  transform: scale(1.1);
 }
 
 .contact-button {
@@ -146,7 +156,7 @@ footer .social-links a:hover {
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
-  transition: var(--button-transition);
+  transition: var(--element-transition);
 }
 
 .contact-button:hover {
@@ -155,7 +165,7 @@ footer .social-links a:hover {
 }
 
 .project-description {
-  padding: 120px 60px;
+  padding: 0 20px;
 }
 
 .project-button {
@@ -166,7 +176,7 @@ footer .social-links a:hover {
   color: var(--main-color);
   padding: 15px 15px;
   text-decoration: none;
-  transition: var(--button-transition);
+  transition: var(--element-transition);
 }
 
 .project-button:hover {
@@ -175,12 +185,13 @@ footer .social-links a:hover {
 }
 
 .hero-pages {
-  padding: 160px 10px;
+  padding: 10em 0 3em;
 }
 
 .hero-pages h1 {
-  font-size: 64px;
-  line-height: 80px;
+  font-size: 3.5em;
+  line-height: 65px;
+  letter-spacing: -2px;
 }
 
 .hero-pages h2 {
@@ -194,6 +205,29 @@ footer .social-links a:hover {
   border-radius: 4px;
   font-size: 16px;
   line-height: 1.5;
+}
+
+.about-content {
+  margin: 0 20px;
+}
+
+.about-title {
+  font-size: 35px !important;
+  font-weight: 500;
+  margin: 0;
+}
+
+.certificates:hover {
+  transform: scale(1.2);
+  transition: var(--element-transition);
+}
+
+.skill-visual {
+  color: var(--main-color);
+  padding: 10px 16px;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: var(--button-transition);
 }
 
 @media (max-width: 576px) {
@@ -216,12 +250,22 @@ footer .social-links a:hover {
   p {
     font-size: 18px;
   }
-
   .hero-home {
     padding: 80px 10px;
   }
+  .hero-home p {
+    font-size: 26px;
+  }
   .home-img {
     display: none;
+  }
+
+  .hero-pages {
+    padding: 5em 0 1em !important;
+  }
+
+  .hero-pages h1 {
+    line-height: 35px;
   }
 
   .container {
