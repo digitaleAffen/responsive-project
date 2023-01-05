@@ -222,12 +222,23 @@ footer .social-links a:hover {
   transition: var(--element-transition);
 }
 
-.skill-visual {
-  color: var(--main-color);
-  padding: 10px 16px;
-  font-size: 18px;
+.skill {
+  text-align: center;
+}
+
+.skill-visual i {
+  background: var(--secondary-color);
   border-radius: 50%;
-  transition: var(--button-transition);
+  color: #323133;
+  font-size: 42px;
+  margin: 0 20px;
+  padding: 10px 16px;
+  transition: var(--element-transition);
+}
+
+.skill-visual i:hover {
+  color: var(--main-color);
+  transition: var(--element-transition);
 }
 
 @media (max-width: 576px) {
@@ -261,7 +272,6 @@ footer .social-links a:hover {
   }
 
   .hero-pages {
-    padding: 5em 0 1em !important;
   }
 
   .hero-pages h1 {
@@ -282,6 +292,6 @@ footer .social-links a:hover {
 
   .hero-pages {
     text-align: center;
-    padding: 0;
+    padding: 5em 0 1em;
   }
 }
