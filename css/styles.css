@@ -97,8 +97,6 @@ footer .social-links a:hover {
 
 .menu a:hover {
   color: var(--main-color);
-  touch-action: manipulation;
-  text-decoration: underline;
 }
 
 .active {
@@ -290,5 +288,13 @@ footer .social-links a:hover {
   .hero-pages {
     text-align: center;
     padding: 5em 0 1em;
+  }
+
+  footer .contact-box {
+    padding: 10px;
+  }
+
+  .text-footer {
+    display: none;
   }
 }
