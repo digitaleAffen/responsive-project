@@ -171,9 +171,9 @@ footer .social-links a:hover {
 .project-button {
   background: white;
   border: 1px solid var(--main-color);
-  border-radius: 4px;
   box-shadow: var(--box-shadow);
   color: var(--main-color);
+  display: block;
   padding: 15px 15px;
   text-decoration: none;
   transition: var(--element-transition);
@@ -230,7 +230,7 @@ footer .social-links a:hover {
   background: var(--secondary-color);
   border-radius: 50%;
   color: #323133;
-  font-size: 42px;
+  font-size: 32px;
   margin: 0 20px;
   padding: 10px 16px;
   transition: var(--element-transition);
@@ -269,9 +269,6 @@ footer .social-links a:hover {
   }
   .home-img {
     display: none;
-  }
-
-  .hero-pages {
   }
 
   .hero-pages h1 {
