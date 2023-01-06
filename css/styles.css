@@ -269,10 +269,14 @@ footer .social-links a:hover {
     display: none;
   }
 
-  .hero-pages h1 {
-    line-height: 35px;
+  .hero-pages {
+    text-align: center;
+    padding: 5em 0 1em;
   }
 
+  .hero-pages h1 {
+    line-height: 48px;
+  }
   .container {
     text-align: center;
   }
@@ -285,16 +289,15 @@ footer .social-links a:hover {
     display: block;
   }
 
-  .hero-pages {
-    text-align: center;
-    padding: 5em 0 1em;
-  }
-
   footer .contact-box {
     padding: 10px;
   }
 
   .text-footer {
     display: none;
+  }
+
+  .blog-post p {
+    text-align: left;
   }
 }
