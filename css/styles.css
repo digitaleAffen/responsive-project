@@ -215,6 +215,11 @@ footer .social-links a:hover {
   margin: 0;
 }
 
+.hobbies {
+  color: var(--main-color);
+  opacity: 0.8;
+}
+
 .certificates:hover {
   transform: scale(1.2);
   transition: var(--element-transition);
