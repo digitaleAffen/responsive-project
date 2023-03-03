@@ -221,7 +221,7 @@ footer .social-links a:hover {
 }
 
 .certificates:hover {
-  transform: scale(1.2);
+  transform: scale(2);
   transition: var(--element-transition);
 }
 
