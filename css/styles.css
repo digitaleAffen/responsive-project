@@ -53,11 +53,6 @@ a {
   text-align: center;
 }
 
-section {
-  background: #efefef;
-  padding: 100px;
-}
-
 footer {
   margin: 60px 0;
 }
@@ -249,30 +244,6 @@ footer .social-links a:hover {
   transition: var(--element-transition);
 }
 
-.blog h2,
-h3,
-h5,
-p {
-  opacity: 0.8;
-}
-
-.blog-title {
-  color: var(--main-color);
-}
-
-.blog p {
-  line-height: 22px;
-}
-
-.blog-link {
-  color: var(--main-color);
-  text-align: left;
-  text-decoration: none;
-}
-.blog-link:hover {
-  text-decoration: underline;
-}
-
 @media (max-width: 576px) {
   h1 {
     font-size: 48px;
@@ -290,18 +261,9 @@ p {
     font-size: 24px;
   }
 
-  h5 {
-    font-family: var(--defoult-font-family);
-  }
-
   p {
     font-size: 18px;
   }
-
-  section {
-    padding: 10px;
-  }
-
   .hero-home {
     padding: 80px 10px;
   }
@@ -330,10 +292,6 @@ p {
 
   .project-button {
     display: block;
-  }
-
-  .blog h2 {
-    font-size: 42px;
   }
 
   footer .contact-box {
