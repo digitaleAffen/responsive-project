@@ -304,10 +304,9 @@ p {
 
   .hero-home {
     padding: 80px 10px;
-  }
-  .hero-home p {
     font-size: 26px;
   }
+
   .home-img {
     display: none;
   }
